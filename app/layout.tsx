@@ -1,4 +1,4 @@
-import { ThemeProvider } from "@/components/theme-provider";
+import { ThemeProvider } from "@/components/Theme-provider";
 import "./globals.css";
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {

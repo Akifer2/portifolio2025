@@ -3,8 +3,8 @@
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import { Button } from "./ui/button"
-import Logo from "./logo"
-import { ModeToggle } from "./mode-togle"
+import Logo from "./Logo"
+import { ModeToggle } from "./Mode-togle"
 
 export default function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -101,7 +101,7 @@ export default function Header() {
                         className="self-end mb-4 text-muted-foreground"
                         aria-label="Fechar menu"
                     >
-                        <X />
+                        <X />-
                     </button>
                     <ul className="
                         flex
